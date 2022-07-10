@@ -18,7 +18,7 @@
             <section class="col-2">
                 <h3>Search For A City:</h3>
                 <input class="rounded col-12" id="cityname" type="text" placeholder="London,Sydney... ">
-                <button class="col-12 btn btn-primary col-4" id="search-btn">Search</button>
+                <button class="col-12 btn btn-primary col-4" type="button" id="search-btn" onclick="cityName()">Search</button>
 
                 <section class="row">               
                     <h3>Previous Searches</h3>
@@ -27,19 +27,54 @@
             </section>     
 
             <section class="col-8">
-                <section class='border border-dark' id="current">
-                    <div class="class" id="city"><p>City: </p></div>
-                    <div class="class" id="wind"><p>Wind: </p></div>
-                    <div class="class" id="temp"><p>Temp: </p></div>
-                    <div class="class" id="humidity"><p>Humidity: </p></div>
-                    <div class="class" id="uvindex"><p>UV-Index: </p></div>
-                </section>
-
-                <section class="row"> 
-                    <section class="row d-flex flex-wrap"  id="forecast">
+                    <section class='border border-dark' id="current">
+                        <div class="city" id="city">
+                        City:
+                        </div>
+                        <div >
+                            <img id="current-icon" />
+                        </div>
+                        <div class="date-0" id="date-0">
+                        10/07/2022
+                        </div>
+                        <div class="wind" id="wind">
+                        Wind: 
+                        </div>
+                        <div class="temp" id="temp">
+                        Temp: 
+                        </div>
+                        <div class="humidity" id="humidity">
+                        Humidity: 
+                        </div>
+                        <div class="uvindex" id="uvindex">
+                        UV-Index: 
+                        </div>
+                    </section>
+                
+            </section>
+         </section>
+         <section class="row offset-2 border border-dark " id="weatherContainer">
+            <h3>5 day Forecast</h3>
+                    <section class="col-2 border border-dark" id="Day 1">
+                        <p>Date:</p>
+                        <p>Icon:</p>
+                    </section>
+                    <section class="col-2 border border-dark" id="Day 2">
+                        Day2
+                    </section>
+                    <section class="col-2 border border-dark" id="Day 3">
+                        Day3
+                    </section>
+                    <section class="col-2 border border-dark" id="Day 4">
+                        Day4
+                    </section>
+                    <section class="col-2 border border-dark" id="Day 5">
+                        Day5
                     </section>
                 </section>
+                
             </section>
+
          </section>
         
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
