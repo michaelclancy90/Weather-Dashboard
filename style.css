@@ -3,6 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    background:     linear-gradient(90deg, rgb(0, 84, 229) 0%, rgb(0, 4, 116) 100%);;
+}
+
 #city {
     margin-bottom: 20px;
 }
