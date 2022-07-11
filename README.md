@@ -34,13 +34,13 @@ THEN I am again presented with current and future conditions for that city <br /
 ## **Github Account** 
  <br />
 
-[Github Account]()
+[Github Account](https://github.com/michaelclancy90/Weather-Dashboard)
 
  <br />
 
 ## **Deployed Site link**
  <br />
-
+ [Website ] (https://michaelclancy90.github.io/Weather-Dashboard/)
  <br />
 
 ## **Screenshot of Deployed Site**

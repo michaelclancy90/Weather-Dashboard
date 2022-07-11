@@ -72,11 +72,6 @@ function displayLocalStorage(){
         historyList += `<button>${history[i]}</button>`
     }
     $("#history").append(historyList)
-    history.onclick = function () {
-        history = cityName
-    }
-}
-
-function historyClick(history){
 
 }
+
