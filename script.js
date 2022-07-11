@@ -72,7 +72,11 @@ function displayLocalStorage(){
         historyList += `<button>${history[i]}</button>`
     }
     $("#history").append(historyList)
-    historyClick(history)
-   history.onclick = displayTodaysWeather(data)
+    history.onclick = function () {
+        history = cityName
+    }
 }
 
+function historyClick(history){
+
+}
