@@ -45,7 +45,7 @@ THEN I am again presented with current and future conditions for that city <br /
 
 ## **Screenshot of Deployed Site**
  <br />
-
+<img src="/Weather-Dashboard.png">
 <br />
 
 ## **References**
